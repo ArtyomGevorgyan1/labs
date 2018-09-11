@@ -250,9 +250,6 @@ void dele(node* &d) {
 	}
 }
 
-// освобождать место, куда указывают строки узлов, не надо!!!! вообще не надо! последний cin считает место, куда указывет указатель строковый послднего созданого узла!!!!
-// когда только создаем корень, его указатель на предка nullptr
-
 void menu() {
 	cout << "You want to enter the dictionary, do it.\n";
 	cout << "How many words are there in your dictionary?\n";
