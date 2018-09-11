@@ -3,11 +3,6 @@ using namespace std;
 
 // ----------------------------------- helping structs and functions
 
-
-/// доступ к content через точку
-/// надо прописать пробелы
-// работа с логарифмами для вещественных - исп. ряды тейлора
-
 bool isnum(char c) {
 	if (c <= '9' && c >= '0') {
 		return 1;
